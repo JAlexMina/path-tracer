@@ -1,0 +1,28 @@
+<scenefile>
+<!-- 	<cameradata>
+		<pos x="0" y="5" z="20"/>
+		<up x="0" y="5" z="0"/>
+		<focus x="0" y="5" z="0"/>
+		<heightangle v="90"/>
+	</cameradata> -->
+		<cameradata>
+		<pos x="2" y="9" z="2"/>
+		<up x="0" y="5" z="0"/>
+		<focus x="-5" y="6" z="-1"/>
+		<heightangle v="90"/>
+	</cameradata>
+
+	<object type="tree" name="root">
+		<transblock>
+			<translate x="0" y="0" z="0"/>
+			<!-- <scale x="0.10" y="0.10" z="0.10"/> -->
+			<object type="primitive" name="mesh" filename="models/stanford_dragon/dragon2.obj">
+			</object>
+		</transblock>
+<!-- 		<transblock>
+			<translate x="0" y="0" z="0"/>
+			<object type="primitive" name="mesh" filename="models/Light/Light.obj">
+			</object>
+		</transblock> -->
+	</object>
+</scenefile>
